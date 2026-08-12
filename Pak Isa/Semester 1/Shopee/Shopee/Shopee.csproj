@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE51AC03-9D5B-45A8-8DB2-01B728403D6B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Shopee</RootNamespace>
+    <AssemblyName>Shopee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 132933.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 133741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-notification-icon-png-image_927192.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 134211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 133748.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1337481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 133757.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_ycpr9cycpr9cycpr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_59jtrg59jtrg59jt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 142044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_ij3a5aij3a5aij3a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 131628.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 131642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 131704.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini_Generated_Image_ij3a5aij3a5aij3a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1420441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1316281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1316421.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1317041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 143500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 151741.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 151820.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 151853.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 152008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 152103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 152212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1517411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1518201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1518531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1520081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1521031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 1522121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 152728.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 152738.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuplikan layar 2026-08-11 152748.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
