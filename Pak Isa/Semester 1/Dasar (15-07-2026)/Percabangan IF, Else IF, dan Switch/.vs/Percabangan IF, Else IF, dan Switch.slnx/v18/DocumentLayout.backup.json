@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yohana\\Documents\\XI RPL\\Pak Isa\\Semester 1\\Dasar\\Percabangan IF, Else IF, dan Switch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A4F11F-AB92-418A-A7F2-77337D1E5570}|Percabangan IF, Else IF, dan Switch\\Percabangan IF, Else IF, dan Switch.csproj|c:\\users\\yohana\\documents\\xi rpl\\pak isa\\semester 1\\dasar\\percabangan if, else if, dan switch\\percabangan if, else if, dan switch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A4F11F-AB92-418A-A7F2-77337D1E5570}|Percabangan IF, Else IF, dan Switch\\Percabangan IF, Else IF, dan Switch.csproj|solutionrelative:percabangan if, else if, dan switch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\XI RPL\\Pak Isa\\Semester 1\\Dasar\\Percabangan IF, Else IF, dan Switch\\Percabangan IF, Else IF, dan Switch\\Program.cs",
+              "RelativeDocumentMoniker": "Percabangan IF, Else IF, dan Switch\\Program.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\XI RPL\\Pak Isa\\Semester 1\\Dasar\\Percabangan IF, Else IF, dan Switch\\Percabangan IF, Else IF, dan Switch\\Program.cs",
+              "RelativeToolTip": "Percabangan IF, Else IF, dan Switch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T03:22:38.28Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

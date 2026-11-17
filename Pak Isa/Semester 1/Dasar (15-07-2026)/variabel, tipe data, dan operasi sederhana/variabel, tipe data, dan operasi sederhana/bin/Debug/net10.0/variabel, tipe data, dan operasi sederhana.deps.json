@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "variabel, tipe data, dan operasi sederhana/1.0.0": {
+        "runtime": {
+          "variabel, tipe data, dan operasi sederhana.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "variabel, tipe data, dan operasi sederhana/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

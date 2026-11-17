@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yohana\\Documents\\XI RPL\\Pak Isa\\Semester 1\\Dasar\\Perulangan For, While, dan Foreach Loop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFF3CB10-CFCA-49A5-8C41-8A102402A203}|Perulangan For, While, dan Foreach Loop\\Perulangan For, While, dan Foreach Loop.csproj|c:\\users\\yohana\\documents\\xi rpl\\pak isa\\semester 1\\dasar\\perulangan for, while, dan foreach loop\\perulangan for, while, dan foreach loop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFF3CB10-CFCA-49A5-8C41-8A102402A203}|Perulangan For, While, dan Foreach Loop\\Perulangan For, While, dan Foreach Loop.csproj|solutionrelative:perulangan for, while, dan foreach loop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\XI RPL\\Pak Isa\\Semester 1\\Dasar\\Perulangan For, While, dan Foreach Loop\\Perulangan For, While, dan Foreach Loop\\Program.cs",
+              "RelativeDocumentMoniker": "Perulangan For, While, dan Foreach Loop\\Program.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\XI RPL\\Pak Isa\\Semester 1\\Dasar\\Perulangan For, While, dan Foreach Loop\\Perulangan For, While, dan Foreach Loop\\Program.cs",
+              "RelativeToolTip": "Perulangan For, While, dan Foreach Loop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T04:18:28.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

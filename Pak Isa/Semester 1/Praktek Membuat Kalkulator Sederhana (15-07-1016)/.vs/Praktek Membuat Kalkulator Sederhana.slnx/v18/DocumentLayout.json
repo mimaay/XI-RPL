@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00F26CDB-403F-4239-8EDA-F15B20AA2FC4}|Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana.csproj|c:\\users\\yohana\\documents\\rpl\\xi rpl\\pak isa\\semester 1\\praktek membuat kalkulator sederhana\\praktek membuat kalkulator sederhana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F26CDB-403F-4239-8EDA-F15B20AA2FC4}|Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana.csproj|solutionrelative:praktek membuat kalkulator sederhana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00F26CDB-403F-4239-8EDA-F15B20AA2FC4}|Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana.csproj|c:\\users\\yohana\\documents\\rpl\\xi rpl\\pak isa\\semester 1\\praktek membuat kalkulator sederhana\\praktek membuat kalkulator sederhana\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F26CDB-403F-4239-8EDA-F15B20AA2FC4}|Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana.csproj|solutionrelative:praktek membuat kalkulator sederhana\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00F26CDB-403F-4239-8EDA-F15B20AA2FC4}|Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana.csproj|c:\\users\\yohana\\documents\\rpl\\xi rpl\\pak isa\\semester 1\\praktek membuat kalkulator sederhana\\praktek membuat kalkulator sederhana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00F26CDB-403F-4239-8EDA-F15B20AA2FC4}|Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana.csproj|solutionrelative:praktek membuat kalkulator sederhana\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Praktek Membuat Kalkulator Sederhana\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana\\Form1.Designer.cs",
+              "RelativeToolTip": "Praktek Membuat Kalkulator Sederhana\\Form1.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T00:48:30.775Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana\\Form1.cs",
+              "RelativeDocumentMoniker": "Praktek Membuat Kalkulator Sederhana\\Form1.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana\\Form1.cs",
+              "RelativeToolTip": "Praktek Membuat Kalkulator Sederhana\\Form1.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwC4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T00:33:14.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana\\Form1.cs",
+              "RelativeDocumentMoniker": "Praktek Membuat Kalkulator Sederhana\\Form1.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\Praktek Membuat Kalkulator Sederhana\\Praktek Membuat Kalkulator Sederhana\\Form1.cs [Design]",
+              "RelativeToolTip": "Praktek Membuat Kalkulator Sederhana\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T00:32:36.114Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab2cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ModulajardasarpemogramanC#\\Bab2cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bab14.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab14.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab14.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab14.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab14.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:03:01.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bab12.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab12.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab12.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab12.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab12.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:02:22.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bab7.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab7.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab7.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab7.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:00:30.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bab8.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab8.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab8.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab8.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab8.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:00:55.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bab11.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab11.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab11.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab11.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab11.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:02:02.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bab1.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab1.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab1.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab1.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:58:16.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bab13.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab13.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab13.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab13.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:02:39.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bab9.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab9.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab9.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab9.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab9.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:01:16.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Program.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Program.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Program.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:56:28.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bab10.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab10.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab10.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab10.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:01:41.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Bab6.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab6.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab6.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab6.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T04:00:11.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bab5.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab5.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab5.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab5.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:59:53.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Bab4.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab4.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab4.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab4.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:59:35.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Bab3.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab3.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab3.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab3.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:59:14.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bab2cs.cs",
+              "DocumentMoniker": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab2cs.cs",
+              "RelativeDocumentMoniker": "ModulajardasarpemogramanC#\\Bab2cs.cs",
+              "ToolTip": "C:\\Users\\Yohana\\Documents\\RPL\\XI RPL\\Pak Isa\\Semester 1\\ModulajardasarpemogramanC#\\ModulajardasarpemogramanC#\\Bab2cs.cs",
+              "RelativeToolTip": "ModulajardasarpemogramanC#\\Bab2cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:58:50.691Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
