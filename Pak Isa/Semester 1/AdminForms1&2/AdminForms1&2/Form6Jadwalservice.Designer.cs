@@ -57,7 +57,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.saveBtn = new System.Windows.Forms.Button();
-            this.waktuTxt = new System.Windows.Forms.TextBox();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.hargaCount = new System.Windows.Forms.NumericUpDown();
             this.label15 = new System.Windows.Forms.Label();
@@ -69,6 +68,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.waktuTxt = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -289,6 +289,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.waktuTxt);
             this.panel3.Controls.Add(this.namaBox);
             this.panel3.Controls.Add(this.cabangBox);
             this.panel3.Controls.Add(this.nomorBox);
@@ -301,7 +302,6 @@
             this.panel3.Controls.Add(this.label16);
             this.panel3.Controls.Add(this.label12);
             this.panel3.Controls.Add(this.saveBtn);
-            this.panel3.Controls.Add(this.waktuTxt);
             this.panel3.Controls.Add(this.cancelBtn);
             this.panel3.Controls.Add(this.hargaCount);
             this.panel3.Controls.Add(this.label15);
@@ -350,6 +350,7 @@
             this.kodeTxt.Name = "kodeTxt";
             this.kodeTxt.Size = new System.Drawing.Size(209, 29);
             this.kodeTxt.TabIndex = 28;
+            this.kodeTxt.Text = "__ Jam __ Menit";
             // 
             // label13
             // 
@@ -426,14 +427,6 @@
             this.saveBtn.Text = "Simpan";
             this.saveBtn.UseVisualStyleBackColor = true;
             // 
-            // waktuTxt
-            // 
-            this.waktuTxt.Font = new System.Drawing.Font("Yu Gothic UI", 8F);
-            this.waktuTxt.Location = new System.Drawing.Point(538, 362);
-            this.waktuTxt.Name = "waktuTxt";
-            this.waktuTxt.Size = new System.Drawing.Size(245, 29);
-            this.waktuTxt.TabIndex = 17;
-            // 
             // cancelBtn
             // 
             this.cancelBtn.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -448,6 +441,11 @@
             // 
             this.hargaCount.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hargaCount.Location = new System.Drawing.Point(538, 433);
+            this.hargaCount.Maximum = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
             this.hargaCount.Name = "hargaCount";
             this.hargaCount.Size = new System.Drawing.Size(245, 29);
             this.hargaCount.TabIndex = 15;
@@ -535,6 +533,13 @@
             this.textBox4.Size = new System.Drawing.Size(100, 26);
             this.textBox4.TabIndex = 0;
             // 
+            // waktuTxt
+            // 
+            this.waktuTxt.Location = new System.Drawing.Point(538, 363);
+            this.waktuTxt.Name = "waktuTxt";
+            this.waktuTxt.Size = new System.Drawing.Size(245, 26);
+            this.waktuTxt.TabIndex = 32;
+            // 
             // Form6JadwalService
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -591,7 +596,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button saveBtn;
-        private System.Windows.Forms.TextBox waktuTxt;
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.NumericUpDown hargaCount;
         private System.Windows.Forms.Label label15;
@@ -606,5 +610,6 @@
         private System.Windows.Forms.ComboBox namaBox;
         private System.Windows.Forms.ComboBox cabangBox;
         private System.Windows.Forms.ComboBox nomorBox;
+        private System.Windows.Forms.DateTimePicker waktuTxt;
     }
 }

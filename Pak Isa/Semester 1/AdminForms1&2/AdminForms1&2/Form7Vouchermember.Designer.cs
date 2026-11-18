@@ -45,18 +45,26 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dataGridPromo = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Kode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PersentaseDiskon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MaksimumDiskon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BerlakuSampai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Deskripsi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.maxCount = new System.Windows.Forms.NumericUpDown();
+            this.percentCount = new System.Windows.Forms.NumericUpDown();
+            this.descriptionText = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.expirationDate = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.clearBtn = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.promoText = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -73,9 +81,9 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridPromo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maxCount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.percentCount)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -284,18 +292,18 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.numericUpDown2);
-            this.panel3.Controls.Add(this.numericUpDown1);
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.dataGridPromo);
+            this.panel3.Controls.Add(this.maxCount);
+            this.panel3.Controls.Add(this.percentCount);
+            this.panel3.Controls.Add(this.descriptionText);
             this.panel3.Controls.Add(this.label13);
-            this.panel3.Controls.Add(this.dateTimePicker1);
+            this.panel3.Controls.Add(this.expirationDate);
             this.panel3.Controls.Add(this.label12);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.saveBtn);
+            this.panel3.Controls.Add(this.clearBtn);
             this.panel3.Controls.Add(this.label15);
-            this.panel3.Controls.Add(this.dataGridView1);
             this.panel3.Controls.Add(this.label14);
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.promoText);
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label9);
@@ -305,28 +313,121 @@
             this.panel3.Size = new System.Drawing.Size(795, 524);
             this.panel3.TabIndex = 18;
             // 
-            // numericUpDown2
+            // dataGridPromo
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(192, 442);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(209, 26);
-            this.numericUpDown2.TabIndex = 32;
+            this.dataGridPromo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridPromo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Kode,
+            this.PersentaseDiskon,
+            this.MaksimumDiskon,
+            this.BerlakuSampai,
+            this.Deskripsi,
+            this.edit,
+            this.hapus});
+            this.dataGridPromo.Location = new System.Drawing.Point(24, 92);
+            this.dataGridPromo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridPromo.Name = "dataGridPromo";
+            this.dataGridPromo.RowHeadersWidth = 62;
+            this.dataGridPromo.Size = new System.Drawing.Size(759, 216);
+            this.dataGridPromo.TabIndex = 37;
+            this.dataGridPromo.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridPromo_CellClick);
             // 
-            // numericUpDown1
+            // ID
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(192, 403);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(209, 26);
-            this.numericUpDown1.TabIndex = 31;
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Width = 150;
             // 
-            // textBox2
+            // Kode
             // 
-            this.textBox2.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(499, 327);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(262, 123);
-            this.textBox2.TabIndex = 30;
+            this.Kode.DataPropertyName = "Kode";
+            this.Kode.HeaderText = "Kode";
+            this.Kode.MinimumWidth = 8;
+            this.Kode.Name = "Kode";
+            this.Kode.Width = 150;
+            // 
+            // PersentaseDiskon
+            // 
+            this.PersentaseDiskon.DataPropertyName = "PersentaseDiskon";
+            this.PersentaseDiskon.HeaderText = "Persentase Diskon";
+            this.PersentaseDiskon.MinimumWidth = 8;
+            this.PersentaseDiskon.Name = "PersentaseDiskon";
+            this.PersentaseDiskon.Width = 150;
+            // 
+            // MaksimumDiskon
+            // 
+            this.MaksimumDiskon.DataPropertyName = "MaksimumDiskon";
+            this.MaksimumDiskon.HeaderText = "Maksimum Diskon";
+            this.MaksimumDiskon.MinimumWidth = 8;
+            this.MaksimumDiskon.Name = "MaksimumDiskon";
+            this.MaksimumDiskon.Width = 150;
+            // 
+            // BerlakuSampai
+            // 
+            this.BerlakuSampai.DataPropertyName = "BerlakuSampai";
+            this.BerlakuSampai.HeaderText = "Berlaku Sampai";
+            this.BerlakuSampai.MinimumWidth = 8;
+            this.BerlakuSampai.Name = "BerlakuSampai";
+            this.BerlakuSampai.Width = 150;
+            // 
+            // Deskripsi
+            // 
+            this.Deskripsi.DataPropertyName = "Deskripsi";
+            this.Deskripsi.HeaderText = "Deskripsi";
+            this.Deskripsi.MinimumWidth = 8;
+            this.Deskripsi.Name = "Deskripsi";
+            this.Deskripsi.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.DataPropertyName = "edit";
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
+            // 
+            // hapus
+            // 
+            this.hapus.DataPropertyName = "hapus";
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
+            // 
+            // maxCount
+            // 
+            this.maxCount.Location = new System.Drawing.Point(192, 442);
+            this.maxCount.Maximum = new decimal(new int[] {
+            1410065408,
+            2,
+            0,
+            0});
+            this.maxCount.Name = "maxCount";
+            this.maxCount.Size = new System.Drawing.Size(209, 26);
+            this.maxCount.TabIndex = 32;
+            // 
+            // percentCount
+            // 
+            this.percentCount.Location = new System.Drawing.Point(192, 403);
+            this.percentCount.Name = "percentCount";
+            this.percentCount.Size = new System.Drawing.Size(209, 26);
+            this.percentCount.TabIndex = 31;
+            // 
+            // descriptionText
+            // 
+            this.descriptionText.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descriptionText.Location = new System.Drawing.Point(499, 327);
+            this.descriptionText.Multiline = true;
+            this.descriptionText.Name = "descriptionText";
+            this.descriptionText.Size = new System.Drawing.Size(262, 123);
+            this.descriptionText.TabIndex = 30;
             // 
             // label13
             // 
@@ -338,12 +439,12 @@
             this.label13.TabIndex = 27;
             this.label13.Text = "Maksimum Diskon";
             // 
-            // dateTimePicker1
+            // expirationDate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(192, 367);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(209, 26);
-            this.dateTimePicker1.TabIndex = 24;
+            this.expirationDate.Location = new System.Drawing.Point(192, 367);
+            this.expirationDate.Name = "expirationDate";
+            this.expirationDate.Size = new System.Drawing.Size(209, 26);
+            this.expirationDate.TabIndex = 24;
             // 
             // label12
             // 
@@ -355,25 +456,27 @@
             this.label12.TabIndex = 19;
             this.label12.Text = "Presentase Diskon";
             // 
-            // button2
+            // saveBtn
             // 
-            this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(562, 474);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 34);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "Simpan";
-            this.button2.UseVisualStyleBackColor = true;
+            this.saveBtn.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveBtn.Location = new System.Drawing.Point(562, 474);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(91, 34);
+            this.saveBtn.TabIndex = 18;
+            this.saveBtn.Text = "Simpan";
+            this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
-            // button1
+            // clearBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(672, 474);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 34);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Batal";
-            this.button1.UseVisualStyleBackColor = true;
+            this.clearBtn.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearBtn.Location = new System.Drawing.Point(672, 474);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(89, 34);
+            this.clearBtn.TabIndex = 16;
+            this.clearBtn.Text = "Batal";
+            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
             // 
             // label15
             // 
@@ -385,16 +488,6 @@
             this.label15.TabIndex = 14;
             this.label15.Text = "Deskripsi";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(24, 92);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(759, 216);
-            this.dataGridView1.TabIndex = 13;
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -404,13 +497,14 @@
             this.label14.Size = new System.Drawing.Size(0, 25);
             this.label14.TabIndex = 11;
             // 
-            // textBox1
+            // promoText
             // 
-            this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(192, 327);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(209, 29);
-            this.textBox1.TabIndex = 7;
+            this.promoText.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.promoText.Location = new System.Drawing.Point(192, 327);
+            this.promoText.Name = "promoText";
+            this.promoText.Size = new System.Drawing.Size(209, 29);
+            this.promoText.TabIndex = 7;
+            this.promoText.TextChanged += new System.EventHandler(this.promoText_TextChanged);
             // 
             // label11
             // 
@@ -475,6 +569,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form7Vouchermember";
+            this.Load += new System.EventHandler(this.Form7Vouchermember_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -488,9 +583,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridPromo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maxCount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.percentCount)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -517,19 +612,27 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox promoText;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button clearBtn;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker expirationDate;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox descriptionText;
+        private System.Windows.Forms.NumericUpDown maxCount;
+        private System.Windows.Forms.NumericUpDown percentCount;
+        private System.Windows.Forms.DataGridView dataGridPromo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Kode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PersentaseDiskon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaksimumDiskon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BerlakuSampai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Deskripsi;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
     }
 }

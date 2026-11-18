@@ -45,12 +45,29 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label14 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.statusBox = new System.Windows.Forms.ComboBox();
+            this.durasiTxt = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.saveBtn = new System.Windows.Forms.Button();
+            this.cancelBtn = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dataGridStatus = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.hapus = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -61,7 +78,7 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -270,7 +287,13 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.dataGridView1);
+            this.panel3.Controls.Add(this.dataGridStatus);
+            this.panel3.Controls.Add(this.statusBox);
+            this.panel3.Controls.Add(this.durasiTxt);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.saveBtn);
+            this.panel3.Controls.Add(this.cancelBtn);
+            this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.label14);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label8);
@@ -278,16 +301,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(795, 524);
             this.panel3.TabIndex = 18;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(24, 92);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(759, 359);
-            this.dataGridView1.TabIndex = 13;
             // 
             // label14
             // 
@@ -332,6 +345,178 @@
             this.textBox4.Size = new System.Drawing.Size(100, 26);
             this.textBox4.TabIndex = 0;
             // 
+            // statusBox
+            // 
+            this.statusBox.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusBox.FormattingEnabled = true;
+            this.statusBox.Location = new System.Drawing.Point(100, 389);
+            this.statusBox.Name = "statusBox";
+            this.statusBox.Size = new System.Drawing.Size(224, 29);
+            this.statusBox.TabIndex = 35;
+            // 
+            // durasiTxt
+            // 
+            this.durasiTxt.Font = new System.Drawing.Font("Yu Gothic UI", 8F);
+            this.durasiTxt.Location = new System.Drawing.Point(538, 389);
+            this.durasiTxt.Name = "durasiTxt";
+            this.durasiTxt.Size = new System.Drawing.Size(245, 29);
+            this.durasiTxt.TabIndex = 34;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(392, 389);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(133, 25);
+            this.label16.TabIndex = 33;
+            this.label16.Text = "Perkiraan Delay";
+            // 
+            // saveBtn
+            // 
+            this.saveBtn.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveBtn.Location = new System.Drawing.Point(444, 469);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(159, 34);
+            this.saveBtn.TabIndex = 32;
+            this.saveBtn.Text = "Simpan";
+            this.saveBtn.UseVisualStyleBackColor = true;
+            // 
+            // cancelBtn
+            // 
+            this.cancelBtn.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cancelBtn.Location = new System.Drawing.Point(632, 469);
+            this.cancelBtn.Name = "cancelBtn";
+            this.cancelBtn.Size = new System.Drawing.Size(151, 34);
+            this.cancelBtn.TabIndex = 31;
+            this.cancelBtn.Text = "Batal";
+            this.cancelBtn.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(19, 389);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(61, 25);
+            this.label10.TabIndex = 30;
+            this.label10.Text = "Status";
+            // 
+            // dataGridStatus
+            // 
+            this.dataGridStatus.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridStatus.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.edit,
+            this.hapus});
+            this.dataGridStatus.Location = new System.Drawing.Point(24, 92);
+            this.dataGridStatus.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dataGridStatus.Name = "dataGridStatus";
+            this.dataGridStatus.RowHeadersWidth = 62;
+            this.dataGridStatus.Size = new System.Drawing.Size(759, 273);
+            this.dataGridStatus.TabIndex = 37;
+            this.dataGridStatus.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridStatus_CellClick);
+            // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.MinimumWidth = 8;
+            this.ID.Name = "ID";
+            this.ID.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "KodePenerbangan";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Kode Penerbangan";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "BandaraAsal";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Keberangkatan";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "BandaraTujuan";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Tujuan";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Maskapai";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Maskapai";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "TanggalKeberangkatan";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Tanggal Keberangkatan";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "DurasiPenerbangan";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Durasi Penerbangan";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "HargaPerTiket";
+            this.dataGridViewTextBoxColumn8.HeaderText = "HargaPerTiket";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "WaktuKeberangkatan";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Waktu Keberangkatan";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.Width = 150;
+            // 
+            // edit
+            // 
+            this.edit.DataPropertyName = "edit";
+            this.edit.HeaderText = "";
+            this.edit.MinimumWidth = 8;
+            this.edit.Name = "edit";
+            this.edit.Text = "Edit";
+            this.edit.UseColumnTextForButtonValue = true;
+            this.edit.Width = 150;
+            // 
+            // hapus
+            // 
+            this.hapus.DataPropertyName = "hapus";
+            this.hapus.HeaderText = "";
+            this.hapus.MinimumWidth = 8;
+            this.hapus.Name = "hapus";
+            this.hapus.Text = "Hapus";
+            this.hapus.UseColumnTextForButtonValue = true;
+            this.hapus.Width = 150;
+            // 
             // Form8Riwayat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -354,7 +539,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridStatus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -379,9 +564,26 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ComboBox statusBox;
+        private System.Windows.Forms.TextBox durasiTxt;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Button saveBtn;
+        private System.Windows.Forms.Button cancelBtn;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DataGridView dataGridStatus;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
+        private System.Windows.Forms.DataGridViewButtonColumn hapus;
     }
 }

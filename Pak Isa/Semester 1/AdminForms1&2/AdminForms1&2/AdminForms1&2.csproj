@@ -175,6 +175,7 @@
       <DependentUpon>Pembelicontrol.cs</DependentUpon>
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Session.cs" />
     <Compile Include="StatusPenerbangan.cs">
       <DependentUpon>BandaraModel.tt</DependentUpon>
     </Compile>

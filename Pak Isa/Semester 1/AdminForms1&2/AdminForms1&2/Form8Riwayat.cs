@@ -12,6 +12,9 @@ namespace AdminForms1_2
 {
     public partial class Form8Riwayat : Form
     {
+        BandaraEntities2 db = new BandaraEntities2();
+        private int idStatus;
+
         public Form8Riwayat()
         {
             InitializeComponent();
@@ -62,6 +65,41 @@ namespace AdminForms1_2
             Form1Login login = new Form1Login();
             this.Hide();
             login.Show();
+        }
+
+        private void LoadStatus()
+        {
+            statusBox.DataSource = db.StatusPenerbangans.ToList();
+            statusBox.ValueMember = "ID";
+            statusBox.DisplayMember = "Nama";
+            statusBox.SelectedIndex = -1;
+        }
+
+        private void LoadData()
+        {
+            dataGridStatus.DataSource = db.PerubahanStatusJadwalPenerbangans.Select(s => new
+            {
+                s.ID,
+                s.JadwalPenerbanganID,
+                kodePenerbangan = s.JadwalPenerbangan.KodePenerbangan,
+                bandaraAwal = s.JadwalPenerbangan.Bandara.Nama,
+                bandaraTujuan = s.JadwalPenerbangan.Bandara1.Nama,
+                maskapai = s.JadwalPenerbangan.Maskapai.Nama,
+                tanggalKeberangkatan = s.JadwalPenerbangan.TanggalKeberangkatan,
+                durasiPenerbangan = (s.JadwalPenerbangan.DurasiPenerbangan / 60) + " Jam " + (s.JadwalPenerbangan.DurasiPenerbangan % 60) + " Menit ",
+                statusPenerbangan = s.StatusPenerbangan.Nama,
+                s.WaktuPerubahanTerjadi
+            }).ToList();
+        }
+
+        private void dataGridStatus_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
+
+            idStatus = Convert.ToInt32(dataGridStatus.Rows[e.RowIndex].Cells["ID"].Value);
         }
     }
 }

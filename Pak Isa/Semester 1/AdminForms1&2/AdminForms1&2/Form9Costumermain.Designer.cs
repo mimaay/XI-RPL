@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.searchBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.logOutBtn = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label2 = new System.Windows.Forms.Label();
+            this.passengerCount = new System.Windows.Forms.NumericUpDown();
+            this.departureDate = new System.Windows.Forms.DateTimePicker();
+            this.welcomeLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.departureText = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.destinationText = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -50,25 +50,26 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logOutBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passengerCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // searchBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(96, 429);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 35);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Cari Jadwal";
-            this.button1.UseVisualStyleBackColor = true;
+            this.searchBtn.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchBtn.ForeColor = System.Drawing.Color.Black;
+            this.searchBtn.Location = new System.Drawing.Point(96, 429);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.Size = new System.Drawing.Size(117, 35);
+            this.searchBtn.TabIndex = 0;
+            this.searchBtn.Text = "Cari Jadwal";
+            this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // label1
             // 
@@ -84,7 +85,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.logOutBtn);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -101,16 +102,18 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 19;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
-            // pictureBox6
+            // logOutBtn
             // 
-            this.pictureBox6.Image = global::AdminForms1_2.Properties.Resources.login_logout_white_icon_11642597802btccm3uuci;
-            this.pictureBox6.Location = new System.Drawing.Point(906, 27);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(71, 67);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 18;
-            this.pictureBox6.TabStop = false;
+            this.logOutBtn.Image = global::AdminForms1_2.Properties.Resources.login_logout_white_icon_11642597802btccm3uuci;
+            this.logOutBtn.Location = new System.Drawing.Point(906, 27);
+            this.logOutBtn.Name = "logOutBtn";
+            this.logOutBtn.Size = new System.Drawing.Size(71, 67);
+            this.logOutBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logOutBtn.TabIndex = 18;
+            this.logOutBtn.TabStop = false;
+            this.logOutBtn.Click += new System.EventHandler(this.logOutBtn_Click);
             // 
             // label7
             // 
@@ -133,31 +136,36 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // numericUpDown1
+            // passengerCount
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Location = new System.Drawing.Point(519, 372);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(292, 29);
-            this.numericUpDown1.TabIndex = 4;
+            this.passengerCount.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passengerCount.Location = new System.Drawing.Point(519, 372);
+            this.passengerCount.Maximum = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
+            this.passengerCount.Name = "passengerCount";
+            this.passengerCount.Size = new System.Drawing.Size(292, 29);
+            this.passengerCount.TabIndex = 4;
             // 
-            // dateTimePicker1
+            // departureDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(96, 372);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(292, 29);
-            this.dateTimePicker1.TabIndex = 5;
+            this.departureDate.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.departureDate.Location = new System.Drawing.Point(96, 372);
+            this.departureDate.Name = "departureDate";
+            this.departureDate.Size = new System.Drawing.Size(292, 29);
+            this.departureDate.TabIndex = 5;
             // 
-            // label2
+            // welcomeLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 168);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(254, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Mau membuat janji, [Nama kamu]?";
+            this.welcomeLabel.AutoSize = true;
+            this.welcomeLabel.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeLabel.Location = new System.Drawing.Point(29, 168);
+            this.welcomeLabel.Name = "welcomeLabel";
+            this.welcomeLabel.Size = new System.Drawing.Size(254, 21);
+            this.welcomeLabel.TabIndex = 6;
+            this.welcomeLabel.Text = "Mau membuat janji, [Nama kamu]?";
             // 
             // label3
             // 
@@ -169,13 +177,13 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Cabang";
             // 
-            // textBox1
+            // departureText
             // 
-            this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(96, 264);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(292, 31);
-            this.textBox1.TabIndex = 9;
+            this.departureText.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.departureText.Location = new System.Drawing.Point(96, 264);
+            this.departureText.Name = "departureText";
+            this.departureText.Size = new System.Drawing.Size(292, 31);
+            this.departureText.TabIndex = 9;
             // 
             // label4
             // 
@@ -197,13 +205,13 @@
             this.label5.TabIndex = 15;
             this.label5.Text = "Jumlah orang";
             // 
-            // textBox2
+            // destinationText
             // 
-            this.textBox2.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(519, 264);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(292, 31);
-            this.textBox2.TabIndex = 14;
+            this.destinationText.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.destinationText.Location = new System.Drawing.Point(519, 264);
+            this.destinationText.Name = "destinationText";
+            this.destinationText.Size = new System.Drawing.Size(292, 31);
+            this.destinationText.TabIndex = 14;
             // 
             // label6
             // 
@@ -263,27 +271,28 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.destinationText);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.departureText);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.welcomeLabel);
+            this.Controls.Add(this.departureDate);
+            this.Controls.Add(this.passengerCount);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.searchBtn);
             this.Name = "Form9Costumermain";
             this.Text = "Form9Costumermain";
+            this.Load += new System.EventHandler(this.Form9CostumerMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logOutBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passengerCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -295,25 +304,25 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button searchBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown passengerCount;
+        private System.Windows.Forms.DateTimePicker departureDate;
+        private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox departureText;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox destinationText;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox logOutBtn;
         private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

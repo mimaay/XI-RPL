@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.numberLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.titleBox = new System.Windows.Forms.ComboBox();
+            this.fullNameText = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // numberLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(122, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pembeli #1";
+            this.numberLabel.AutoSize = true;
+            this.numberLabel.Font = new System.Drawing.Font("Yu Gothic UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberLabel.Location = new System.Drawing.Point(20, 15);
+            this.numberLabel.Name = "numberLabel";
+            this.numberLabel.Size = new System.Drawing.Size(122, 30);
+            this.numberLabel.TabIndex = 0;
+            this.numberLabel.Text = "Pembeli #1";
             // 
             // label2
             // 
@@ -66,22 +66,23 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Nama Lengkap";
             // 
-            // comboBox1
+            // titleBox
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(162, 67);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(291, 33);
-            this.comboBox1.TabIndex = 3;
+            this.titleBox.Font = new System.Drawing.Font("Yu Gothic UI", 9F);
+            this.titleBox.FormattingEnabled = true;
+            this.titleBox.Location = new System.Drawing.Point(162, 67);
+            this.titleBox.Name = "titleBox";
+            this.titleBox.Size = new System.Drawing.Size(291, 33);
+            this.titleBox.TabIndex = 3;
+            this.titleBox.Text = "Pilih Titel";
             // 
-            // textBox1
+            // fullNameText
             // 
-            this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 9F);
-            this.textBox1.Location = new System.Drawing.Point(162, 106);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(529, 31);
-            this.textBox1.TabIndex = 4;
+            this.fullNameText.Font = new System.Drawing.Font("Yu Gothic UI", 9F);
+            this.fullNameText.Location = new System.Drawing.Point(162, 106);
+            this.fullNameText.Name = "fullNameText";
+            this.fullNameText.Size = new System.Drawing.Size(529, 31);
+            this.fullNameText.TabIndex = 4;
             // 
             // label4
             // 
@@ -100,11 +101,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.fullNameText);
+            this.Controls.Add(this.titleBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.numberLabel);
             this.Name = "UserControl1";
             this.Size = new System.Drawing.Size(704, 180);
             this.ResumeLayout(false);
@@ -114,11 +115,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label numberLabel;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox titleBox;
+        private System.Windows.Forms.TextBox fullNameText;
         private System.Windows.Forms.Label label4;
     }
 }
